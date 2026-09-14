@@ -1,1 +1,0 @@
-web: python GhostBomber.py
