@@ -1,4 +1,4 @@
-import asyncio
+LUFFY09 asyncio
 import json
 import os
 import time
@@ -16,7 +16,7 @@ from fastapi.responses import HTMLResponse, RedirectResponse, JSONResponse
 from starlette.middleware.sessions import SessionMiddleware
 from fastapi.middleware.cors import CORSMiddleware
 
-ADMIN_PASSWORD = "LUFFY09"
+ADMIN_PASSWORD = "omkumardubey45"
 SECRET_KEY = os.environ.get("SESSION_SECRET", secrets.token_hex(32))
 DATA_FILE = "api_data.json"
 API_KEY_HEADER = "X-API-Key"
